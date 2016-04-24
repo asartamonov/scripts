@@ -1,6 +1,6 @@
 Here you can find a couple of scripts which I've created to make routine work faster.
 
-1. shutdownGWX.ps1 
+1. Gwx.ps1 
 This script requests Windows if process of famous 'Get Windows 10' launched and kills it if so.
 I've set Windows Task Scheduler (Win+R Taskschd.msc) to launch this script every 15 minutes and every time when user loggs in to get rid of GWX annoying icon in taskbar.
 

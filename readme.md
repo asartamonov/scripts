@@ -12,4 +12,4 @@ Useful script to improve user experience from work with Notepad++. You can doubl
 You just select text you want to replace (variable or method name or even class name) run the script and type a new name for selected member. Thats it.
 
 4. HControlRestart.ps1
-On ASUS laptop proces HControl.exe freezes when computer wakes up after skeep. Restart this process is necessary because it is responsible for additional buttons (FN-keys). This handy script helps to do that.
+On ASUS laptop proces HControl.exe freezes when computer wakes up after sleep. Restart this process is necessary because it is responsible for additional buttons (FN-keys). This handy script helps to do that.

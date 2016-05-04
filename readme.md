@@ -11,3 +11,5 @@ Simple script to help find large folders with images on your computer. Report sh
 Useful script to improve user experience from work with Notepad++. You can double click and NPP highlights the variable you've clicked on, but no chance to change it's name by NPP features. Fortunately NPP pluguin 'Python Script' and this pluguin can solve the problem.
 You just select text you want to replace (variable or method name or even class name) run the script and type a new name for selected member. Thats it.
 
+4. HControlRestart.ps1
+On ASUS laptop proces HControl.exe freezes when computer wakes up after skeep. Restart this process is necessary because it is responsible for additional buttons (FN-keys). This handy script helps to do that.

@@ -8,7 +8,7 @@ New-Item -Path $reportDest -Force -ItemType file
 #Create a header in report file
 $head = "{0,-10} {1,-100}" -f "Size", "Address"
 $separatorLine = "-" * 80
-Add-Content -Value $head, $separatorLine -Path $reportDest
+Add-Content -Encoding UTF8 -Value $head, $separatorLine -Path $reportDest
      
 #Build a list of folders
 $folders = Get-childitem $destinationpath -recurse | Where-Object {$_.mode -like "d*"} 
@@ -30,7 +30,7 @@ Foreach ($folder in $folders){
                 #Build a formatted string record about folder with images
                 $imagefolder = "{0,-10} {1,-100}" -f [math]::Round($gbsize, 2), $folder.FullName
                 #Make a record in a report file
-                Add-Content -Value $imagefolder -Path $reportDest
+                Add-Content -Encoding UTF8 -Value $imagefolder -Path $reportDest
                 }
         }      
     }
